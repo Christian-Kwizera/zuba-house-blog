@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuba House Blog - African Fashion, Culture & Handmade Stories</title>
+    <meta name="keywords" content="African fashion, Zuba House, cultural stories, handmade crafts, style guides, gift ideas, Ankara, Kente, Adinkra, traditional textiles, ethical fashion, sustainable fashion, African prints, fashion tips, culture, heritage, handmade, style, gifts, blog, Zuba House blog, African elegance, fashion blog, lifestyle blog">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-placeholder">
+                        <img src="img/logo.png" alt="Zuba House Logo"F>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Zuba House Blog</h1>
+                        <p>Stories of African Elegance</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Search -->
+                <div class="search-bar desktop-search">
+                    <input type="text" id="search-input" placeholder="Search articles...">
+                    <button type="button" id="search-btn" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav desktop-nav">
+                    <a href="https://zubahouse.com" class="nav-link">Home</a>
+                    <a href="https://zubahouse.com/shop" class="nav-link">Shop</a>
+                    <a href="https://zubahouse.com/about" class="nav-link">About</a>
+                    <a href="https://zubahouse.com/contact" class="nav-link">Contact</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-content">
+            <div class="mobile-search">
+                <input type="text" placeholder="Search articles...">
+                <button type="button" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="https://zubahouse.com" class="mobile-nav-link">Home</a>
+                <a href="https://zubahouse.com/shop" class="mobile-nav-link">Shop</a>
+                <a href="https://zubahouse.com/about" class="mobile-nav-link">About</a>
+                <a href="https://zubahouse.com/contact" class="mobile-nav-link">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Featured Blog Post -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-overlay">
+                <div class="container">
+                    <div class="hero-text">
+                        <span class="hero-category">Culture & Heritage</span>
+                        <h2 class="hero-title">The Art of Ankara: Stories Woven in Every Thread</h2>
+                        <p class="hero-excerpt">Discover the rich history and cultural significance behind Ankara fabric, from its origins to its modern-day influence on African fashion worldwide.</p>
+                        <div class="hero-meta">
+                            <span class="hero-date">July 28, 2025</span>
+                            <span class="hero-author">By Amara Okafor</span>
+                        </div>
+                        <a href="#" class="hero-btn">Read Full Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Filter Section -->
+                <section class="filter-section">
+                    <h3>Explore by Category</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">All Posts</button>
+                        <button class="filter-btn" data-category="fashion">Fashion Tips</button>
+                        <button class="filter-btn" data-category="culture">Culture & Heritage</button>
+                        <button class="filter-btn" data-category="gifts">Gift Ideas</button>
+                        <button class="filter-btn" data-category="handmade">Handmade Stories</button>
+                        <button class="filter-btn" data-category="style">Style Guides</button>
+                    </div>
+                </section>
+
+                <div class="content-grid">
+                    <!-- Articles Grid -->
+                    <section class="articles-grid">
+                        <div class="articles-container" id="articles-container">
+                            <!-- Article 1 -->
+                            <article class="article-card" data-category="fashion">
+                                <div class="article-image">
+                                    <img src="img/ankara.jpg">
+                                    <span class="article-category">Fashion Tips</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">5 Ways to Style Your Ankara Dress for Any Occasion</h3>
+                                    <p class="article-excerpt">From casual day looks to elegant evening wear, learn how to transform your favorite Ankara pieces with simple styling tricks that celebrate African heritage.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 25, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Article 2 -->
+                            <article class="article-card" data-category="culture">
+                                <div class="article-image">
+                                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=250&fit=crop" alt="African cultural traditions" loading="lazy">
+                                    <span class="article-category">Culture & Heritage</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">The Sacred Symbols: Understanding Adinkra Patterns</h3>
+                                    <p class="article-excerpt">Explore the deep meanings behind traditional Adinkra symbols and how they continue to inspire contemporary African fashion and art.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 22, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Article 3 -->
+                            <article class="article-card" data-category="gifts">
+                                <div class="article-image">
+                                    <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop" alt="African handmade gifts" loading="lazy">
+                                    <span class="article-category">Gift Ideas</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Perfect Wedding Gifts: Handcrafted African Treasures</h3>
+                                    <p class="article-excerpt">Discover unique, meaningful gifts that celebrate love and tradition. From handwoven baskets to custom jewelry, find the perfect present.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 20, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Article 4 -->
+                            <article class="article-card" data-category="handmade">
+                                <div class="article-image">
+                                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=250&fit=crop" alt="African artisan crafting" loading="lazy">
+                                    <span class="article-category">Handmade Stories</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Meet the Artisan: Fatima's Journey in Leather Crafting</h3>
+                                    <p class="article-excerpt">Follow the inspiring story of master craftsperson Fatima as she creates beautiful leather sandals using techniques passed down through generations.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 18, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Article 5 -->
+                            <article class="article-card" data-category="style">
+                                <div class="article-image">
+                                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=250&fit=crop" alt="African fashion styling" loading="lazy">
+                                    <span class="article-category">Style Guides</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Building Your African-Inspired Capsule Wardrobe</h3>
+                                    <p class="article-excerpt">Create a versatile wardrobe that celebrates African aesthetics while fitting seamlessly into your modern lifestyle. Essential pieces and styling tips included.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 15, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Article 6 -->
+                            <article class="article-card" data-category="culture">
+                                <div class="article-image">
+                                    <img src="img/gift.jpg">
+                                    <span class="article-category">Culture & Heritage</span>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Celebrating Kwanzaa: Fashion and Cultural Expression</h3>
+                                    <p class="article-excerpt">Explore how traditional African clothing plays a central role in Kwanzaa celebrations and learn about the cultural significance of each garment.</p>
+                                    <div class="article-meta">
+                                        <span class="article-date">July 12, 2025</span>
+                                        <a href="#" class="article-link">Read More</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Load More Button -->
+                        <div class="load-more-section">
+                            <button class="load-more-btn" id="load-more-btn">Load More Stories</button>
+                        </div>
+                    </section>
+
+                    <!-- Sidebar -->
+                    <aside class="sidebar">
+                        <!-- Popular Posts -->
+                        <div class="sidebar-section">
+                            <h4>Popular This Week</h4>
+                            <div class="popular-posts">
+                                <div class="popular-post">
+                                    <img src="img/couple.jpg">
+                                    <div class="popular-content">
+                                        <h5>Summer Ankara Trends 2025</h5>
+                                        <span class="popular-date">July 20, 2025</span>
+                                    </div>
+                                </div>
+                                <div class="popular-post">
+                                    <img src="img/ward.jpg" alt="Popular post">
+                                    <div class="popular-content">
+                                        <h5>The History of Kente Cloth</h5>
+                                        <span class="popular-date">July 18, 2025</span>
+                                    </div>
+                                </div>
+                                <div class="popular-post">
+                                    <img src="img/afro.jpg">
+                                    <div class="popular-content">
+                                        <h5>Handmade Jewelry Care Tips</h5>
+                                        <span class="popular-date">July 15, 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter Signup -->
+                        <div class="sidebar-section">
+                            <h4>Stay Connected</h4>
+                            <p>Get the latest stories and style inspiration delivered to your inbox.</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Your email address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="sidebar-section">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/zuba_house/" class="social-link">Instagram</a>
+                                <a href="https://www.facebook.com/p/Zuba-House-61559578310001/" class="social-link">Facebook</a>
+                                <a href="https://x.com/ZubaInfo" class="social-link">Twitter</a>
+                                <a href="https://ca.linkedin.com/company/zuba-house" class="social-link">LinkedIn</a>
+                                <a href="https://www.tiktok.com/@zubahouse" class="social-link">TikTok</a>
+                                <a href="https://ca.pinterest.com/zubahouse2010/" class="social-link">Pinterest</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>Contact Us</h5>
+                    <p>Phone: +14375577487</p>
+                    <p>Address: 119 Chem. Rivermead, Gatineau, J9H 5W5, Canada</p>                </div>
+                <div class="footer-section">
+                    <h5>Quick Links</h5>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="footer-section">
+                    <h5>Shop</h5>
+                    <a href="#">Fashion</a>
+                    <a href="#">Home Décor</a>
+                    <a href="#">Accessories</a>
+                    <a href="#">Gift Cards</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zuba House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
